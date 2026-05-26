@@ -1,0 +1,27 @@
+# Obsidian 内部配置（含插件）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+
+# Claude / Claudian 运行时
+.claude/
+.claudian/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python 临时文件
+__pycache__/
+*.pyc
+
+# 数据缓存（训练时产生的临时文件）
+data/
+*.pt
+*.bin
+checkpoints/
+
+# 环境
+.env
+.venv/
